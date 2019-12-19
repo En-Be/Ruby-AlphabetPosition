@@ -12,4 +12,7 @@ describe 'AlphabetPosition' do
         expect(AlphabetPosition("cba")).to eq "3 2 1"
     end
 
+    it 'outputs an empty string when passed a space' do
+        expect(AlphabetPosition(" ")).to eq ""
+    end
 end
