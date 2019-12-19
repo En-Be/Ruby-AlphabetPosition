@@ -8,4 +8,8 @@ describe 'AlphabetPosition' do
         expect(AlphabetPosition("ab")).to eq "1 2"
     end
 
+    it 'outputs 3 2 1 when passed cba' do
+        expect(AlphabetPosition("cba")).to eq "3 2 1"
+    end
+
 end
