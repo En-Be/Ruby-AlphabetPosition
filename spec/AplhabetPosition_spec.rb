@@ -15,4 +15,9 @@ describe 'AlphabetPosition' do
     it 'outputs an empty string when passed a space' do
         expect(AlphabetPosition(" ")).to eq ""
     end
+
+    it 'outputs an empty string when passed a number' do
+        expect(AlphabetPosition("1")).to eq ""
+    end
+
 end

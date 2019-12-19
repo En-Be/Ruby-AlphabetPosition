@@ -12,6 +12,7 @@ Input | Output
 "ab" | "1 2"
 "cba" | "3 2 1"
 " " | ""
+"1" | ""
 ---
 
 ## How to run
